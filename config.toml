@@ -1,0 +1,74 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Lukas Messmer｜Journalist'
+theme = 'hugo-theme-shell-master'
+
+[Params]
+  # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
+  description = "Lukas Messmer｜Journalist"
+  [Params.Terminal]
+  # Note: color schema
+  # Note: You can choose between
+  # Note: ["monokai", "powershell", "gruvbox_light", "gruvbox_dark", "solarized_light", "solarized_dark", "ubuntu", "retro"]
+  # Note: If you want to use the Goph theme, set it to "goph" (See README.md)
+  schema = "monokai"
+
+  # Note: in terminal
+  # [userName]@[pcName]:~/$ cd [workDir]
+  # [userName]@[pcName]:~/[workDir]$ cat [profile]
+  #
+  # [description]
+  #
+  # Note: if you set Params.Tree > use = true
+  # [userName]@[pcName]:~/[workDir]$ tree ./[folderName]/
+  # ./[folderName]/
+  # ...
+  # Note: result of the tree command
+  userName = "messmelu"
+  pcName = "bangkok"
+  workDir = "mydir"
+  profile = "profile.txt"
+
+  # Note: speed at which text is displayed on the terminal
+  # Note: if set to 0, typing animation will be disabled
+  # Note:
+  # Note: If you want to enable Mathjax, you need to set it to 0
+  # Note: and set "math: true" at front matter in your Markdown file
+  terminalDelay = 5
+
+  # Note: speed at which text is displayed on the activity pages
+  # Note: if set to 0, typing animation will be disabled
+  # Note:
+  # Note: If you want to enable Mathjax, you need to set it to 0
+  # Note: and set "math: true" at front matter in your Markdown file
+  activityDelay = 5
+
+  description = """
+
+  Hi! I am Lukas Messmer.
+  Nice to meet you!
+  I work in Bangkok, Thailand.
+  I mainly cover Southeast Asia
+  for Swiss Public Television SRF.
+
+  I am available produce, film and
+  edit for projects in the region.
+
+  """
+
+  # Note: If you want to use a Markdown file, you can use the following
+  # description = "/description.md"
+  # Note: and put the description.md in /content/description.md
+
+  [Params.Tree]
+  use = true
+  folderName = "my_activities"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [
+    ["Contact me", "mailto:lukas.messmer@gmail.com"],
+    ["Twitter", "https://twitter.com/messmerlukas"],
+    ["Instagram", "https://www.instagram.com/lukasmessmer/?hl=en"],
+    ["SRF report for '10vor10'", "https://www.srf.ch/play/tv/10-vor-10/video/der-mekong-ist-krank?urn=urn:srf:video:9f660d5d-e3a0-4906-8e8d-1ccc26a69d38"],
+    ["SRF report for 'Tagesschau'", "https://www.srf.ch/play/tv/tagesschau/video/die-durian-frucht-liegt-im-trend?urn=urn:srf:video:8823cbc1-c101-43a9-a64e-340a16c6e93d"],
+    ["SRF report for 'mitenand'", "https://www.srf.ch/play/tv/mitenand/video/thailand---bildung-gegen-menschenhandel?urn=urn:srf:video:a00aac34-5432-4ba4-9c1c-e5da520f895b"],
+  ]
