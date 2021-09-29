@@ -54,6 +54,8 @@ theme = 'hugo-theme-shell-master'
   I am available produce, film and
   edit for projects in the region.
 
+  Contact me: lukas.messmer(@)gmail.com
+
   """
 
   # Note: If you want to use a Markdown file, you can use the following
@@ -65,7 +67,6 @@ theme = 'hugo-theme-shell-master'
   folderName = "my_activities"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [
-    ["Contact me", "mailto:lukas.messmer@gmail.com"],
     ["Twitter", "https://twitter.com/messmerlukas"],
     ["Instagram", "https://www.instagram.com/lukasmessmer/?hl=en"],
     ["SRF report for '10vor10'", "https://www.srf.ch/play/tv/10-vor-10/video/der-mekong-ist-krank?urn=urn:srf:video:9f660d5d-e3a0-4906-8e8d-1ccc26a69d38"],
