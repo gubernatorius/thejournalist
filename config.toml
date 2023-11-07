@@ -52,8 +52,8 @@ theme = 'hugo-theme-shell-master'
   I mainly cover Southeast Asia
   for Swiss Public Television SRF.
 
-  I am available write text command
-  produce, film and in the region.
+  I am available write text and to
+  produce and film video in the region.
 
   Contact me:
   lukas.messmer(@)gmail.com
@@ -69,9 +69,11 @@ theme = 'hugo-theme-shell-master'
   folderName = "my_activities"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [
-    ["Twitter", "https://twitter.com/messmerlukas"],
+    ["Bluesky", "@lukasmessmer.bsky.social"],
     ["Instagram", "https://www.instagram.com/lukasmessmer/?hl=en"],
-    ["SRF report for '10vor10'", "https://www.srf.ch/play/tv/10-vor-10/video/der-mekong-ist-krank?urn=urn:srf:video:9f660d5d-e3a0-4906-8e8d-1ccc26a69d38"],
-    ["SRF report for 'Tagesschau'", "https://www.srf.ch/play/tv/tagesschau/video/die-durian-frucht-liegt-im-trend?urn=urn:srf:video:8823cbc1-c101-43a9-a64e-340a16c6e93d"],
-    ["SRF report for 'mitenand'", "https://www.srf.ch/play/tv/mitenand/video/thailand---bildung-gegen-menschenhandel?urn=urn:srf:video:a00aac34-5432-4ba4-9c1c-e5da520f895b"],
+    ["'Im Visier Pekings' (Documentary for NZZ Format)", "https://www.nzz.ch/international/pekings-machtpolitik-in-philippinischen-gewaessern-ld.1758125"],
+    ["'Der Mekong ist krank' (Report for SRF 10vor10)" , "https://www.srf.ch/play/tv/10-vor-10/video/der-mekong-ist-krank?urn=urn:srf:video:9f660d5d-e3a0-4906-8e8d-1ccc26a69d38"],
+    ["'Die Durian-Frucht liegt im Trend' (Report for SRF Tagesschau)", "https://www.srf.ch/play/tv/tagesschau/video/die-durian-frucht-liegt-im-trend?urn=urn:srf:video:8823cbc1-c101-43a9-a64e-340a16c6e93d"],
+    ["'Bildung gegen Menschenhandel (Report for SRF mitenand)", "https://www.srf.ch/play/tv/mitenand/video/thailand---bildung-gegen-menschenhandel?urn=urn:srf:video:a00aac34-5432-4ba4-9c1c-e5da520f895b"],
+    ["'Martinas langer Marsch' (Camerawork for SRF Reporter)", "https://www.srf.ch/play/tv/reporter/video/martinas-langer-marsch?urn=urn:srf:video:7818d626-0c08-440f-b085-1a5af0740b7c"]
   ]
